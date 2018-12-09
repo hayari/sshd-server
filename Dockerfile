@@ -13,4 +13,4 @@ CMD /usr/sbin/sshd -D
 USER nobody
 WORKDIR /tmp
 
-EXPOSE 2222
+EXPOSE 22
