@@ -29,6 +29,7 @@
 # Authentication:
 
 #LoginGraceTime 2m
+PermitRootLogin yes
 #PermitRootLogin prohibit-password
 #StrictModes yes
 #MaxAuthTries 6
@@ -120,4 +121,4 @@ Subsystem	sftp	/usr/lib/openssh/sftp-server
 #	AllowTcpForwarding no
 #	PermitTTY no
 #	ForceCommand cvs server
-PermitRootLogin yes
+
